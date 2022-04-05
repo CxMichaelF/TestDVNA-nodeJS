@@ -31,7 +31,7 @@ jobs:
     - name: Checkmarx CxFlow Action
       uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.4 #Github Action version
       with:
-        project: MFCx1234567 # <-- Insert Checkmarx SAST Project Name ORIG: ${{ secrets.CHECKMARX_PROJECT }}
+        project: MFCx777777777 # <-- Insert Checkmarx SAST Project Name ORIG: ${{ secrets.CHECKMARX_PROJECT }}
         team: /CxServer    # /CxServer/SP/America/checkmarx.com - 11506 # ${{ secrets.CHECKMARX_TEAMS }}
         checkmarx_url: ${{ secrets.CHECKMARX_URL }} # To be stored in GitHub Secrets.
         checkmarx_username: ${{ secrets.CHECKMARX_USER }} # To be stored in GitHub Secrets.
